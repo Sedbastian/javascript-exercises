@@ -20,6 +20,17 @@ const palindromes = function (string) {
     return true;
 };
 
+// From SOLUTIONS!!!
+// const palindromes = function(string) {
+//     processedString = string.toLowerCase().replace(/[^a-z]/g, "");
+//     return (
+//       processedString
+//         .split("")
+//         .reverse()
+//         .join("") == processedString
+//     );
+//   };
+
 // console.log(palindromes("a Bclcb,a"));
 // Do not edit below this line
 module.exports = palindromes;
